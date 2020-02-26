@@ -59,12 +59,42 @@ Staggered Grid View : It is basically an extension to Grid View but in this each
 
 #What is the purpose of logcat?  
 
+Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class.
+
 #What kind of gestures are available?
+
+Ontouch and motion gestures.
+
 
 #What was the predecessor of the recyclerview?
 
+Listview
+
+
 #What is the difference between a Toast and Snackbar ?
 
+Toast:
+
+    Toast was added in API Level 1
+    Basically Activity is not required (Can be shown on Android home or even above other apps)
+    It can’t perform an action based on User input
+    It can’t be dismissed by swiping
+    It can’t handle user input like Swipe, Click etc.
+    Good for showing info messages to user
+
+SnackBar:
+
+    SnackBar was added in API Level 23
+    It can be showed inside an activity of the Applications
+    It can perform an action
+    It can be dismissed by swiping
+    It can handle user input
+    Good for showing warning/info type messages to user that needs attention
+
+
 #What is the purpose of the existence of “optionals” in the Kotlin language?
+
+To prevent Nullpointer exceptions? (Ask to make sure)
+
 
 
