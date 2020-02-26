@@ -52,10 +52,15 @@ It lists the libraries that the application must be linked against.
 # Lesson 2
 
 #What is the difference of a staggered grid comparing to a normal grid?
+
 #What is the purpose of logcat?  
+
 #What kind of gestures are available?
+
 #What was the predecessor of the recyclerview?
+
 #What is the difference between a Toast and Snackbar ?
+
 #What is the purpose of the existence of “optionals” in the Kotlin language?
 
 
