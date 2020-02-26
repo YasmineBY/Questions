@@ -4,9 +4,10 @@ All questions for Mobile Development
 
 # Lesson 1
 
-#What are the names of the latest three versions of Android?  -
-Android Nougat
-Android Oreo
+#What are the names of the latest three versions of Android?  
+
+Android Nougat,
+Android Oreo,
 Android Pie
 
 #What does the abbreviation ART stands for?
