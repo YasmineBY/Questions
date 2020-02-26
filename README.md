@@ -53,6 +53,10 @@ It lists the libraries that the application must be linked against.
 
 #What is the difference of a staggered grid comparing to a normal grid?
 
+Grid View : It is is a ViewGroup that displays items in a two-dimensional, scrollable grid. In this each Grid is of same size (Height and width). Grid View shows symmetric items in view.
+
+Staggered Grid View : It is basically an extension to Grid View but in this each Grid is of varying size(Height and width). Staggered Grid View shows asymmetric items in view.
+
 #What is the purpose of logcat?  
 
 #What kind of gestures are available?
