@@ -63,7 +63,7 @@ Logcat is a command-line tool that dumps a log of system messages, including sta
 
 #What kind of gestures are available?
 
-Ontouch and motion gestures.
+Ontouch and motion.
 
 
 #What was the predecessor of the recyclerview?
@@ -94,7 +94,7 @@ SnackBar:
 
 #What is the purpose of the existence of “optionals” in the Kotlin language?
 
-To prevent Nullpointer exceptions? (Ask to make sure)
+To prevent Nullpointer exceptions
 
 
 
