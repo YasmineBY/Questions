@@ -96,5 +96,15 @@ SnackBar:
 
 To prevent Nullpointer exceptions
 
+-----------------------------------------------------------------------------------------------------------
+# Lesson 2
+
+#Which stages of an activity lifecycle exists?
+
+#Which are the two kind of intents, and what is the difference?
+
+#What is the difference between Parcelables and Serializables?
+
+#What is the purpose of the analyzer?
 
 
