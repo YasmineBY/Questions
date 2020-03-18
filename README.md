@@ -100,6 +100,7 @@ To prevent Nullpointer exceptions
 # Lesson 2
 
 #Which stages of an activity lifecycle exists?
+   - Oncreate(), Onstart(), OnResume(), OnPause(), Onstop(), OnDestroy(), OnRestart()
 
 #Which are the two kind of intents, and what is the difference?
 
