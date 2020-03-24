@@ -122,6 +122,7 @@ Parcelable process is much faster than Serializable. One of the reasons for this
 Analyseert je code op xml, kotlin en android standarden zoals: hardcoded text, redundant semicolons etc.
 
 -----------------------------------------------------------------------------------------------------------
+# Lesson 4
 
 #A singleton pattern is used in the class that defines the database. What is the purpose of this pattern?
 
