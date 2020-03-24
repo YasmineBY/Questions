@@ -19,7 +19,11 @@ Android Runtime
 Jetpack is a suite of libraries, tools, and guidance to help developers write high-quality apps easier. These components help you follow best practices, free you from writing boilerplate code, and simplify complex tasks, so you can focus on the code you care about.
  
 #Describe the difference between the fixed, wrap_content and match_constraint setting of the constraint layout?
- 
+
+
+Wrap content makes sure the item isnt bigger than the space it needs (Like a box in a recyclerview, its length isnt suppose to take up the entire screen). 
+
+match_constraint will take up all the space that it can.
  
 #What does the abbreviation DP stand for and why do we need them? 
 
@@ -97,16 +101,44 @@ SnackBar:
 To prevent Nullpointer exceptions
 
 -----------------------------------------------------------------------------------------------------------
-# Lesson 2
+# Lesson 3
 
 #Which stages of an activity lifecycle exists?
    - Oncreate(), Onstart(), OnResume(), OnPause(), Onstop(), OnDestroy(), OnRestart()
 
 #Which are the two kind of intents, and what is the difference?
 
+Explicit intents, Implicit intents
+Implicit intents Specifieert alleen de class en geen actie. (Zoals een app chooser)
 
 #What is the difference between Parcelables and Serializables?
 
+Serializable is a standard Java interface. You can just implement Serializable interface and add override methods. The problem with this approach is that reflection is used and it is a slow process. This method creates a lot of temporary objects and causes quite a bit of garbage collection. However, Serializable interface is easier to implement.
+
+Parcelable process is much faster than Serializable. One of the reasons for this is that we are being explicit about the serialization process instead of using reflection to infer it. It also stands to reason that the code has been heavily optimized for this purpose.
+
 #What is the purpose of the analyzer?
 
+Analyseert je code op xml, kotlin en android standarden zoals: hardcoded text, redundant semicolons etc.
 
+-----------------------------------------------------------------------------------------------------------
+
+#A singleton pattern is used in the class that defines the database. What is the purpose of this pattern?
+
+To ensure there are no two instances of the database
+
+#Why should you load the data in a background thread?
+
+Because that costs alot less capacity
+
+#What are the three major components of ROOM and what are their responsibilities?
+
+Database: It represents the DB, it is an object that holds a connection to the SQLite DB and all the operations are executed through it. It is annotated with @Database.
+ 
+Entity: Represents a table within the Room Database. It should be annotated with @Entity.
+ 
+DAO: An interface that contains the methods to access the Database. It is annotated with @Dao.
+
+#How can you extract the current database so that you can see the table, columns, and data?
+
+I'm not sure what this question is saying, but you can use queries to retrieve the data.
