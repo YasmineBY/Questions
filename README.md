@@ -143,3 +143,32 @@ DAO: An interface that contains the methods to access the Database. It is annota
 #How can you extract the current database so that you can see the table, columns, and data?
 
 I'm not sure what this question is saying, but you can use queries to retrieve the data.
+
+-----------------------------------------------------------------------------------------------------------
+# Lesson 5
+#What are the parts that Android Architecture Components consist of?
+Database, Repository, Viewmodel(LiveData), Activity/Fragment
+
+#Which design principle is followed by the Android Architecture Components?
+Model View ViewModel
+
+#What is the purpose of LiveData?
+
+Ensures your UI matches your data state
+    LiveData follows the observer pattern. LiveData notifies Observer objects when the lifecycle state changes. You can consolidate your code to update the UI in these Observer objects. Instead of updating the UI every time the app data changes, your observer can update the UI every time there's a change.
+No memory leaks
+    Observers are bound to Lifecycle objects and clean up after themselves when their associated lifecycle is destroyed.
+No crashes due to stopped activities
+    If the observer's lifecycle is inactive, such as in the case of an activity in the back stack, then it doesn’t receive any LiveData events.
+No more manual lifecycle handling
+    UI components just observe relevant data and don’t stop or resume observation. LiveData automatically manages all of this since it’s aware of the relevant lifecycle status changes while observing.
+Always up to date data
+    If a lifecycle becomes inactive, it receives the latest data upon becoming active again. For example, an activity that was in the background receives the latest data right after it returns to the foreground.
+Proper configuration changes
+    If an activity or fragment is recreated due to a configuration change, like device rotation, it immediately receives the latest available data
+
+#What is the purpose of a ViewModel
+ViewModel helper class for the UI controller that is responsible for preparing data for the UI. ViewModel objects are automatically retained during configuration changes so that data they hold is immediately available to the next activity or fragment instance.
+
+-----------------------------------------------------------------------------------------------------------
+# Lesson 5
