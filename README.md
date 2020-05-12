@@ -147,9 +147,11 @@ I'm not sure what this question is saying, but you can use queries to retrieve t
 -----------------------------------------------------------------------------------------------------------
 # Lesson 5
 #What are the parts that Android Architecture Components consist of?
+
 Database, Repository, Viewmodel(LiveData), Activity/Fragment
 
 #Which design principle is followed by the Android Architecture Components?
+
 Model View ViewModel
 
 #What is the purpose of LiveData?
@@ -168,7 +170,19 @@ Proper configuration changes
     If an activity or fragment is recreated due to a configuration change, like device rotation, it immediately receives the latest available data
 
 #What is the purpose of a ViewModel
+
 ViewModel helper class for the UI controller that is responsible for preparing data for the UI. ViewModel objects are automatically retained during configuration changes so that data they hold is immediately available to the next activity or fragment instance.
 
 -----------------------------------------------------------------------------------------------------------
-# Lesson 5
+# Lesson 6 (To-Do)
+
+1) What is a Rest API?
+
+
+2) What is Json?
+
+
+3) What is the purpose of GSON?
+
+
+4) What is Firebase?
