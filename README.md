@@ -178,11 +178,16 @@ ViewModel helper class for the UI controller that is responsible for preparing d
 
 1) What is a Rest API?
 
+A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.
 
 2) What is Json?
 
+The JSON format is often used for serializing and transmitting structured data over a network connection. It is used primarily to transmit data between a server and web application, serving as an alternative to XML. JSON is JavaScript Object Notation.
 
 3) What is the purpose of GSON?
 
+Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object
 
 4) What is Firebase?
+
+Firebase provides a real-time database and back-end as a service. The service provides application developers an API that allows application data to be synchronized across clients and stored on Firebase's cloud. The company provides client libraries that enable integration with Android, iOS, JavaScript, Java, Objective-C, Swift and Node.js applications. The database is also accessible through a REST API and bindings for several JavaScript frameworks such as AngularJS, React, Ember.js and Backbone.js. The REST API uses the Server-Sent Events protocol, which is an API for creating HTTP connections for receiving push notifications from a server. Developers using the realtime database can secure their data by using the company's server-side-enforced security rules
