@@ -174,7 +174,7 @@ Proper configuration changes
 ViewModel helper class for the UI controller that is responsible for preparing data for the UI. ViewModel objects are automatically retained during configuration changes so that data they hold is immediately available to the next activity or fragment instance.
 
 -----------------------------------------------------------------------------------------------------------
-# Lesson 6 (To-Do)
+# Lesson 6 
 
 1) What is a Rest API?
 
